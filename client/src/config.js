@@ -4,8 +4,6 @@
 //   VITE_API_URL=https://your-api.example.com/api
 //   VITE_UPLOADS_URL=https://your-api.example.com/uploads
 
-export const SERVER_URL =
-  import.meta.env.VITE_API_URL || "http://localhost:8000/api";
+export const SERVER_URL = import.meta.env.VITE_API_URL;
 
-export const UPLOADS_URL =
-  import.meta.env.VITE_UPLOADS_URL || "http://localhost:8000/uploads";
+export const UPLOADS_URL = import.meta.env.VITE_UPLOADS_URL;
